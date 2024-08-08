@@ -27,6 +27,7 @@ export const CompetitionSwiper: FC<CompetitionSwiperProps> = ({swiperRef, setAct
     <>
       <Swiper
         ref={swiperRef}
+        autoHeight={true}
         effect={"cards"}
         grabCursor={true}
         pagination={{

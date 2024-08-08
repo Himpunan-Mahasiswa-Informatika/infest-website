@@ -22,6 +22,7 @@ export const SeminarSwiperImages = () => {
   };
   return (
     <Swiper
+      autoHeight={true}
       slidesPerView={1}
       centeredSlides={true}
       slidesPerGroupSkip={1}

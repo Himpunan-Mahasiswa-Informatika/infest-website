@@ -17,6 +17,7 @@ export const DocumentationMobile = () => {
   };
   return (
     <Swiper
+      autoHeight={true}
       slidesPerView={1}
       centeredSlides={true}
       slidesPerGroupSkip={1}
