@@ -20,7 +20,7 @@ export const BannerHero3 = () => {
             src={'/assets/images/gabungan-logo.png'}
             alt='gabungan-logo-instansi-terkait-infest-usk'
             fill
-            sizes="22vw"
+            sizes="40vw"
             className="px-4 py-1"
           />
         </div>        
