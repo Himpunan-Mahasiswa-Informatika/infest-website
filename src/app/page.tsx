@@ -114,7 +114,7 @@ const Home = () => {
                     width={40}
                     height={40}
                   />
-                  <p className="text-wrap text-center text-[0.66rem]">DAFTAR SEKARANG</p>
+                  <p className="text-wrap text-center text-[0.58rem] md:text-[0.66rem]">DAFTAR SEKARANG</p>
                 </Link>
               </li>
             </ul>
