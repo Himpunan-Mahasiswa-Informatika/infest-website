@@ -48,7 +48,7 @@
 
 @media only screen and (max-width: 1024px) {
   :root {
-    --swiper-pagination-bottom: 7rem;
+    --swiper-pagination-bottom: 3rem;
   }
 }
 
