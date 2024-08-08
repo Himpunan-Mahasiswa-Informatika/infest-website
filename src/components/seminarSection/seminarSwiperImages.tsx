@@ -58,7 +58,7 @@ export const SeminarSwiperImages = () => {
             height={500}
             src={image.src}
             alt="dokumentasi-seminar-infest-usk"
-            className="rounded-lg border border-primary shadow-md shadow-primary/30 w-full h-full object-cover"
+            className="rounded-lg border border-primary w-full h-full lg:h-[30rem] object-cover"
           />
         </SwiperSlide>
       ))}
