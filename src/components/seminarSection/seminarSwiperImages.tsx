@@ -47,7 +47,7 @@ export const SeminarSwiperImages = () => {
           <div className="absolute top-2 right-5 h-7 w-32">
             <Image
               fill
-              sizes="22vw"
+              sizes="40vw"
               src={"/assets/images/gabungan-logo.png"}
               alt="gabungan-logo-instansi-terkait-infest"
               className="object-cover"
