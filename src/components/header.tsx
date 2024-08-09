@@ -83,10 +83,10 @@ export const Header = () => {
           <span aria-hidden="true" className={`block absolute  h-0.5 w-5 bg-current transform transition duration-500 ease-in-out ${isMenuShow ? '-rotate-45' : 'translate-y-1.5'}`}></span>
         </button>
       )}
-      <ul className={`${isMenuShow ? 'h-auto top-16' : 'top-0 -z-[100] opacity-0'} ${isUnmounting && '-translate-y-full'} ease-in-out duration-200 fixed right-8 w-[44%] p-4 flex flex-col rounded-b-xl bg-secondary divide-y divide-primary-yellow/60`}>
+      <ul className={`${isMenuShow ? 'h-auto top-16' : 'top-0 -z-[100] -translate-y-56 opacity-0'} ease-in-out duration-300 fixed right-8 w-[44%] p-4 flex flex-col rounded-b-xl bg-secondary divide-y divide-primary-yellow/60`}>
         {navbar.map((item) => (
-          <li key={item.name} className='py-3' onClick={() => setIsMenuShow(false)}>
-            <button onClick={() => scrollIntoSection(item.destinationSection)} className='text-[0.8rem] uppercase font-semibold'>{item.name}</button>
+          <li key={item.name} onClick={() => setIsMenuShow(false)}>
+            <button onClick={() => scrollIntoSection(item.destinationSection)} className='text-[0.8rem] uppercase font-semibold py-3 w-full text-start'>{item.name}</button>
           </li>
         ))}
       </ul>
