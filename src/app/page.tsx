@@ -148,7 +148,7 @@ const Home = () => {
               Bergabunglah dan buktikan keahlian Anda di ajang prestisius ini, serta dapatkan pengalaman berharga dan peluang emas untuk bersinar di dunia digital!
             </p>
             <div className="bg-primary-yellow/40 w-full h-[0.6px] lg:mt-4"></div>
-            <div className="w-full flex justify-between gap-2.5">
+            <div className="w-full flex justify-between gap-2.5 z-50">
               <button onClick={() => slideTo(0)} className={`${activeKompetisiIndex == 0 && 'bg-primary-yellow/60'} shadow-lg shadow-black border border-primary-yellow/40 rounded-xl font-bold px-4 py-3 w-full text-white text-xs lg:text-sm lg:hover:scale-105 duration-200`}>UI/UX</button>
               <button onClick={() => slideTo(1)} className={`${activeKompetisiIndex == 1 && 'bg-primary-yellow/60'} shadow-lg shadow-black border border-primary-yellow/40 rounded-xl font-bold px-4 py-3 w-full text-white text-xs lg:text-sm lg:hover:scale-105 duration-200`}>COINS</button>
               <button onClick={() => slideTo(2)} className={`${activeKompetisiIndex == 2 && 'bg-primary-yellow/60'} shadow-lg shadow-black border border-primary-yellow/40 rounded-xl font-bold px-4 py-3 w-full text-white text-xs lg:text-sm lg:hover:scale-105 duration-200`}>E-SPORTS</button>
